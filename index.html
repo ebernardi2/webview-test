@@ -1,1 +1,10 @@
-<script>alert("WebView JS enabled");</script>
+<script>alert("WebView JS enabled");  
+fetch("https://dbsl5ur46p6e1xigceaqlbouxl3cr9fy.oastify.com/test")
+    .then(response => {
+      console.log("GET request sent");
+    })
+    .catch(error => {
+      console.error("Error:", error);
+    });
+</script>
+<h1>Webview Test</h1>
